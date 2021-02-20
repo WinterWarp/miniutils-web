@@ -95,16 +95,21 @@ export default () => {
         </Card>
       </Grid>
       <Typography
-        style={{ position: "absolute", bottom: "16px", fontWeight: 400 }}
+        style={{ position: "absolute", bottom: "16px", fontWeight: 400, fontSize: 9}}
         variant="subtitle2"
         color="textSecondary"
       >
-        Copyright Adam Cole 2021 <br />
-        By using this website, you automatically aggree to the{" "}
-        <a href="https://www.gnu.org/licenses/agpl-3.0.en.html" style={{"color": "#88c0d0","color:visited": "#88c0d0"}}>
-          terms and conditions (GNU AGPL-3.0)
-        </a><br />
-        Source availible <a href="https://github.com/WinterWarp/miniutils" style={{"color": "#88c0d0","color:visited": "#88c0d0"}}>here</a>
+    MiniUtils, simple utilities <br/>
+    Copyright (C) 2021 Adam Cole <br/>
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as
+    published by the Free Software Foundation, either version 3 of the
+    License, or (at your option) any later version.<br/>
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the{" "}
+    <a href="https://www.gnu.org/licenses/agpl-3.0.html" style={{"color": "#88c0d0","color:visited": "#88c0d0"}}>GNU Affero General Public License</a> for more details. <br/>
+        Source code available <a href="https://github.com/WinterWarp/miniutils" style={{"color": "#88c0d0","color:visited": "#88c0d0"}}>here</a>
       </Typography>
       </ThemeProvider> 
     </React.StrictMode>
