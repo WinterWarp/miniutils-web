@@ -109,7 +109,7 @@ export default () => {
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the{" "}
     <a href="https://www.gnu.org/licenses/agpl-3.0.html" style={{"color": "#88c0d0","color:visited": "#88c0d0"}}>GNU Affero General Public License</a> for more details. <br/>
-        Source code available <a href="https://github.com/WinterWarp/miniutils" style={{"color": "#88c0d0","color:visited": "#88c0d0"}}>here</a>
+        Source code available <a href="https://github.com/WinterWarp/miniutils-web" style={{"color": "#88c0d0","color:visited": "#88c0d0"}}>here</a>
       </Typography>
       </ThemeProvider> 
     </React.StrictMode>
